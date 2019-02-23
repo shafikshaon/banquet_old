@@ -2,7 +2,7 @@
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 import os
 
-from django_boilerplate.config import BASE_DIR
+from banquet.config import BASE_DIR
 
 STATIC_URL = '/static/'
 

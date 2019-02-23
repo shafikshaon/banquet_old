@@ -1,6 +1,6 @@
 import os
 
-from django_boilerplate.config import BASE_DIR
+from banquet.config import BASE_DIR
 
 TEMPLATES = [
     {
