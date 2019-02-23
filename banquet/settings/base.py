@@ -44,6 +44,8 @@ FIXTURE_DIRS = [
 
 LOGIN_REDIRECT_URL = '/'
 
+AUTH_USER_MODEL = 'accounts.User'
+
 APPEND_SLASH = False
 
 # built-in Message framework

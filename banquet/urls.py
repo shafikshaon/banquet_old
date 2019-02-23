@@ -19,8 +19,12 @@ from django.contrib import admin
 from django.urls import path, include
 
 from banquet import settings
+from core.views import DashboardView
 
 urlpatterns = [
+    path('', DashboardView.as_view()),
+    path('accounts/', include('accounts.urls')),
+    path('meal/', include('meals.urls')),
     path('admin/', admin.site.urls),
     path('auth/', include('allauth.urls')),
     path('__debug__/', include(debug_toolbar.urls)),

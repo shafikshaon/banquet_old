@@ -12,6 +12,8 @@ DJANGO_DEFAULT_APPS = [
 
 CUSTOM_APPS = [
     'core',
+    'accounts',
+    'meals',
 ]
 
 SITE_ID = 1
